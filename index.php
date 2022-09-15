@@ -1,6 +1,7 @@
 <?php
 
-// Sous WAMP
+// PDO : PHP Data Object => liaison avec la base de données
+// Connexion décrite, par des paramètres ou une 'connection string'
 $bdd = new PDO('mysql:host=127.0.0.1;dbname=gsb;charset=utf8', 'root', '');
 
 echo "<H1>Logiciel Intralab</H1>";
